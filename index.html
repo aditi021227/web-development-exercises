@@ -210,9 +210,28 @@
     </section>
     <section id="contact">
         <div class="container">
-            <h2>Contact Me</h2>
-           <p><b> Email-Id:  <a href="mailto:aditimalik279@gmail.com">aditimalik279@gmail.com</a></b></p>
-        </div>
+        <section id="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="mailto:aditimalik279@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you prefer to contact us through alternative methods, you can use the following:</p>
+            <p><strong>Email:</strong> <a href="mailto:aditimalik279@gmail.com">aditimalik279@gmail.com</a></p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+        </section>
+    </div>
     </section>
 
     <script src="index.js"></script>
